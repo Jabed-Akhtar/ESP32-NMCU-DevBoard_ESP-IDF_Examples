@@ -6,10 +6,13 @@ Here, I have put some examples for ESP32-NodeMCU-Dev-Board.
 - Board used: ESP32-NodeMCU-Dev-Board (can be bought from [https://www.berrybase.de/en/esp32-nodemcu-development-board](https://www.berrybase.de/en/esp32-nodemcu-development-board))
 - Chip / MCU: ESP-WROOM-32
 - Toolchain (Compile code for ESP32): Espressif ESP-32
->> Build tools: CMake and Ninja to build a full App for ESP32
->> APIs: ESP-IDF
+>> Build tools: CMake and Ninja to build a full App for ESP32  
+>> APIs: ESP-IDF  
 - IDE used: Eclipse with Espressif-ESP-IDF plugin [[https://github.com/espressif/idf-eclipse-plugin](https://github.com/espressif/idf-eclipse-plugin)]
-- Main file: can be found at ''
+- Main file: can be found at ''  
+
+- ESP-IDF Programming Guide: [https://espressif-docs.readthedocs-hosted.com/projects/esp-idf/en/stable/index.html](https://espressif-docs.readthedocs-hosted.com/projects/esp-idf/en/stable/index.html) or [https://demo-dijiudu.readthedocs.io/en/latest/index.html](https://demo-dijiudu.readthedocs.io/en/latest/index.html)
+- Web: [http://esp32.net/](http://esp32.net/)
 
 ## Projects  
 | S.No. | Project                      |
