@@ -20,5 +20,4 @@ Here, I have put some examples for ESP32-NodeMCU-Dev-Board.
 | 8     | FreeRTOS__                   |
 
 ### ESP32-NodeMCU-Dev-Board
-![ESP32-NodeMCU-Dev-Board](zz_Docs/ESP32-NMCU.jpg)
 <img src="zz_Docs/ESP32-NMCU.jpg" alt="Image" style="width:50%;height:auto;">
