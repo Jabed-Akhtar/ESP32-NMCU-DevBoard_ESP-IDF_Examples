@@ -6,25 +6,30 @@ Here, I have put some examples for ESP32-NodeMCU-Dev-Board.
 - Board used: ESP32-NodeMCU-Dev-Board (can be bought from [https://www.berrybase.de/en/esp32-nodemcu-development-board](https://www.berrybase.de/en/esp32-nodemcu-development-board))
 - Chip / MCU: ESP-WROOM-32
 - Toolchain (Compile code for ESP32): Espressif ESP-32
->> Build tools: CMake and Ninja to build a full App for ESP32  
->> APIs: ESP-IDF  
-- IDE used: Eclipse with Espressif-ESP-IDF plugin [[https://github.com/espressif/idf-eclipse-plugin](https://github.com/espressif/idf-eclipse-plugin)]
+>> -> Build tools: CMake and Ninja to build a full App for ESP32  
+>> -> APIs: ESP-IDF  
+- IDE used:
+>> 1. Eclipse with Espressif-ESP-IDF plugin [[https://github.com/espressif/idf-eclipse-plugin](https://github.com/espressif/idf-eclipse-plugin)]  
+>> 2. Espressif-IDE [[https://dl.espressif.com/dl/esp-idf/](https://dl.espressif.com/dl/esp-idf/)]
+
 - Main file: can be found at ''  
 
 - ESP-IDF Programming Guide: [https://espressif-docs.readthedocs-hosted.com/projects/esp-idf/en/stable/index.html](https://espressif-docs.readthedocs-hosted.com/projects/esp-idf/en/stable/index.html) or [https://demo-dijiudu.readthedocs.io/en/latest/index.html](https://demo-dijiudu.readthedocs.io/en/latest/index.html)
 - Web: [http://esp32.net/](http://esp32.net/)
 
 ## Projects  
-| S.No. | Project                      |
-|-------|------------------------------|
-| 1     | LED_Blink                    |
-| 2     | RNG                          |
-| 3     | PushButton_OnBoard           |
-| 4     | USART                        |
-| 5     | ADC_OnBoard3VPinRead         |
-| 6     | ADC_OnBoardTemperatureSensor |
-| 7     | Timer__                      |
-| 8     | FreeRTOS__                   |
+| S.No. | Project                      | IDE used           |
+|-------|------------------------------|--------------------|
+| 1     | LED_Blink                    | Eclipse            |
+| 2     | RNG                          | Eclipse            |
+| 3     | PushButton_OnBoard           | Eclipse            |
+| 4     | USART                        | Eclipse            |
+| 5     | ADC_OnBoard3VPinRead         | Eclipse            |
+| 6     | ADC_OnBoardTemperatureSensor | Eclipse            |
+| 7     | Timer__                      | Eclipse            |
+| 8     | FreeRTOS__                   | Eclipse            |
+| 9     | Button_N_LED (tbd)                | Espressif-IDE      |
+| 10    | Potentiometer_ADC (tbd)           | Espressif-IDE      |
 
 ## ESP32 WROOM Generic DevKit
 <img src="zz_Docs/ESP32_WROOM_Generic_DevKit.png" alt="Image" style="width:100%;height:auto;">
