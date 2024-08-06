@@ -18,23 +18,30 @@ Here, I have put some examples for ESP32-NodeMCU-Dev-Board.
 - Web: [http://esp32.net/](http://esp32.net/)
 
 ## Projects  
-| S.No. | Project                      | IDE used           |
-|-------|------------------------------|--------------------|
-| 1     | LED_Blink                    | Eclipse            |
-| 2     | RNG                          | Eclipse            |
-| 3     | PushButton_OnBoard           | Eclipse            |
-| 4     | USART                        | Eclipse            |
-| 5     | ADC_OnBoard3VPinRead         | Eclipse            |
-| 6     | ADC_OnBoardTemperatureSensor | Eclipse            |
-| 7     | Timer__                      | Eclipse            |
-| 8     | FreeRTOS__                   | Eclipse            |
-| 9     | Button_N_LED (tbd)                | Espressif-IDE      |
-| 10    | Potentiometer_ADC (tbd)           | Espressif-IDE      |
+| S.No. | Project                      | IDE used      |
+| ----- | ---------------------------- | ------------- |
+| 1     | LED_Blink                    | Eclipse       |
+| 2     | RNG                          | Eclipse       |
+| 3     | PushButton_OnBoard           | Eclipse       |
+| 4     | USART                        | Eclipse       |
+| 5     | ADC_OnBoard3VPinRead         | Eclipse       |
+| 6     | ADC_OnBoardTemperatureSensor | Eclipse       |
+| 7     | Timer__                      | Eclipse       |
+| 8     | FreeRTOS__                   | Eclipse       |
+| 9     | Button_N_LED                 | Espressif-IDE |
+| 10    | ADC_Potentiometer            | Espressif-IDE |
 
 ## ESP32 WROOM Generic DevKit
 <img src="zz_Docs/ESP32_WROOM_Generic_DevKit.png" alt="Image" style="width:100%;height:auto;">
 
 ### ESP32-NodeMCU-Dev-Board
 <img src="zz_Docs/ESP32-NMCU.jpg" alt="Image" style="width:50%;height:auto;">
+
+# Projects Schematics  
+## Button_N_LED
+<img src="zz_Docs/ledNButton_schematics.png" alt="Image" style="width:75%;height:auto;">
+
+## ADC_Potentiometer
+<img src="zz_Docs/adc_potentiometer_schematics.png" alt="Image" style="width:75%;height:auto;">
 
 #### ##### END OF FILE \###############
