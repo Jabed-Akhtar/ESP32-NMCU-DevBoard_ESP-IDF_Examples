@@ -1,3 +1,14 @@
+*/.settings
+
+# Ignore build artifacts
+**/Debug/
+**/Release/
+
+# IDE related
+/.metadata/
+
+./tool_set_config.json
+
 # Prerequisites
 *.d
 
@@ -50,4 +61,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/.metadata/
