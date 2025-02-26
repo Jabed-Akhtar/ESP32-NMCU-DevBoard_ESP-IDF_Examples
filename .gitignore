@@ -1,4 +1,4 @@
-*/.settings
+**/.settings/
 
 # Ignore build artifacts
 **/Debug/
@@ -6,6 +6,10 @@
 
 # IDE related
 /.metadata/
+
+**/.clangd	# a configuration file for Clangd
+**/.project	# stores general Eclipse project settings
+**/.cproject	# contains configuration details specific to C/C++ projects in Eclipse, such as compiler settings, include paths, and build options
 
 ./tool_set_config.json
 
