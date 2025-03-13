@@ -29,6 +29,7 @@ Here, I have put some examples for ESP32-NodeMCU-Dev-Board.
 | 8     | FreeRTOS__                   | Eclipse       |
 | 9     | Button_N_LED                 | Espressif-IDE |
 | 10    | ADC_Potentiometer            | Espressif-IDE |
+| 10    | LCDDisplay1602_via_IIC       | Espressif-IDE |
 
 ## ESP32 WROOM Generic DevKit
 <img src="zz_Docs/ESP32_WROOM_Generic_DevKit.png" alt="Image" style="width:100%;height:auto;">
