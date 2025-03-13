@@ -1,11 +1,13 @@
 **/.settings/
 
 # Ignore build artifacts
+**/build/
 **/Debug/
 **/Release/
 
 # IDE related
 /.metadata/
+tool_set_config.json
 
 **/.clangd	# a configuration file for Clangd
 **/.project	# stores general Eclipse project settings
