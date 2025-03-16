@@ -13,8 +13,8 @@
 #include "esp_log.h"
 
 /* Defines ---------------------------------------------- */
-#define TXD_PIN (GPIO_NUM_1)
-#define RXD_PIN (GPIO_NUM_3)
+#define TXD_PIN (GPIO_NUM_17)
+#define RXD_PIN (GPIO_NUM_16)
 
 /* Private variables ------------------------------------ */
 static const int RX_BUF_SIZE = 1024;
@@ -74,6 +74,7 @@ static void Task_UART_Tx(void *arg)
 static void Task_UART_Rx(void *arg)
 {
     static const char *Task_UART_Rx_TAG = "Task_UART_Rx";
+    char response_buffer[80];
     esp_log_level_set(Task_UART_Rx_TAG, ESP_LOG_INFO);
     uint8_t* data = (uint8_t*) malloc(RX_BUF_SIZE + 1);
     while (1) {
@@ -82,6 +83,10 @@ static void Task_UART_Rx(void *arg)
             data[rxBytes] = 0;
             ESP_LOGI(Task_UART_Rx_TAG, "Read %d bytes: '%s'", rxBytes, data);
             ESP_LOG_BUFFER_HEXDUMP(Task_UART_Rx_TAG, data, rxBytes, ESP_LOG_INFO);
+            
+            // Send back info to the sender
+            sprintf(response_buffer, "Msg received from you: %s\n\r", data);
+            uart_sendData(Task_UART_Rx_TAG, response_buffer);
         }
     }
     free(data);
